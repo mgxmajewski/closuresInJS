@@ -1,19 +1,15 @@
-function dogHouse() {
-    let dogs = 8;
-    return function() {
-        dogs++;
-        return dogs + 'dogs';
-    }
-}
-
-let counter1 = dogHouse();
-let counter2 = dogHouse();
-console.log(counter1());
-console.log(counter1());
-console.log(counter1());
-console.log(counter1());
-
-console.log(counter2()+'second');
-
-
-
+// function animalCounter(animal) {
+//     let counter = 0;
+//     return function() {
+//         counter++;
+//         return counter + animal;
+//     }
+// }
+//
+// let dogCounter1 = animalCounter('dogs');
+// let dogCounter2 = animalCounter('dogs');
+// let catCounter1 = animalCounter('cats');
+// console.log(dogCounter1());
+// console.log(dogCounter1());
+// console.log(dogCounter2());
+// console.log(catCounter1());
