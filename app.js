@@ -1,6 +1,6 @@
 function dogHouse() {
     let dogs = 8;
-    return function showDogs() {
+    return function() {
         dogs++;
         return dogs + 'dogs';
     }
